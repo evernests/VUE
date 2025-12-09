@@ -9,7 +9,7 @@
 
     <!-- 社交区域 -->
     <section class="social">
-      <h2>找到我</h2>
+      <h2>联系我</h2>
       <div class="social-links">
         <a href="https://github.com/evernests" target="_blank" class="link github">GitHub</a>
         <a href="mailto:477522069@qq.com" class="link email">Email</a>
@@ -22,7 +22,7 @@
       <div class="cards">
         <div class="card">
           <h3>博客</h3>
-          <p>来看我的博客喵，谢谢喵</p>
+          <p>来看我的博客喵，谢谢喵。关于我的一些事情也在博客里哦。</p>
           <a class='link github' href='https://blog.evernests.qzz.io/'></a>
         </div>
       </div>
@@ -47,6 +47,11 @@ export default {
 </script>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: p;
+}
 /* 基础样式 */
 .app {
   font-family: "Segoe UI", sans-serif;
