@@ -23,7 +23,7 @@
         <div class="card">
           <h3>博客</h3>
           <p>来看我的博客喵，谢谢喵。关于我的一些事情也在博客里哦。</p>
-          <a class='link github' href='https://blog.evernests.qzz.io/'></a>
+          <a class='link github' href='https://blog.evernests.qzz.io/'>点击访问博客</a>
         </div>
       </div>
     </section>
