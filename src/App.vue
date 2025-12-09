@@ -1,8 +1,7 @@
 <template>
   <div :class="['app', theme]">
-    <!-- 顶部头像 -->
     <header class="header">
-      <img class="avatar" src="" alt="头像" />
+      <img class="avatar" src="https://i.imgs.ovh/2025/12/09/CWGhre.jpeg" alt="头像" />
       <button class="toggle-btn" @click="toggleTheme">
         {{ theme === 'light' ? '🌙 夜间' : '☀️ 日间' }}
       </button>
@@ -10,10 +9,10 @@
 
     <!-- 社交区域 -->
     <section class="social">
-      <h2>社交</h2>
+      <h2>找到我</h2>
       <div class="social-links">
-        <a href="https://github.com/yourname" target="_blank" class="link github">GitHub</a>
-        <a href="mailto:yourmail@example.com" class="link email">Email</a>
+        <a href="https://github.com/evernests" target="_blank" class="link github">GitHub</a>
+        <a href="mailto:477522069@qq.com" class="link email">Email</a>
       </div>
     </section>
 
@@ -21,9 +20,10 @@
     <section class="works">
       <h2>作品</h2>
       <div class="cards">
-        <div class="card" v-for="n in 3" :key="n">
-          <h3>作品 {{ n }}</h3>
-          <p>这里是作品的简要介绍。</p>
+        <div class="card">
+          <h3>博客</h3>
+          <p>来看我的博客喵，谢谢喵</p>
+          <a class='link github' href='https://blog.evernests.qzz.io/'></a>
         </div>
       </div>
     </section>
