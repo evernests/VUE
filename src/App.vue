@@ -29,7 +29,7 @@ import Social from './comp/Social.vue'
   background-repeat: no-repeat;
   min-height: 100vh
 }
-  mainContainer {
+   .mainContainer {
     height: auto;
     min-height: 200px;
     width: 100%
