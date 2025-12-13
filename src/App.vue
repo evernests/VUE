@@ -48,6 +48,12 @@ import Social from './comp/Social.vue'
     background-color: rgba(255,255,255,0.4);
     backdrop-filter: blur(8px);
   }
+
+  @media (orientation: landscape) {
+    body {
+      background-image: url('https://i.imgs.ovh/2025/12/13/CHf3sg.jpeg')
+    }
+  }
 </style>
 
 <style scoped>
