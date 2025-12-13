@@ -3,8 +3,11 @@
 <template>
   <div class="container">
     <a class="card" href="https://github.com/evernests/">Github</a>
-    <a class="card" href="mailto:477522069@qq.com">E-mail</a>
+    <a class="card" href="mailto:477522069@qq.com">QQ邮箱</a>
   </div>
+  <div class='container'>
+    <a class='card' href='https://blog.evernests.qzz.io'>博客</a>
+    <a class='card' href='mailto:VICTORIALAZY111@outlook.com'>Outlook</a>
 </template>
 
 <style scoped>
