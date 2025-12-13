@@ -7,28 +7,28 @@ import Social from './comp/Social.vue'
 <template>
   <div class='mainContainer'>
     <!-- 懒得写css了，直接加div吧哈哈哈 -->
-    <div style='height: 2px;'></div>
+    <div style='height: 5px;'></div>
     
     <Avatar />
-    <div style='height: 2px;'></div>
+    <div style='height: 5px;'></div>
     
     <div class="name">EverNest</div>
-    <div style='height: 2px;'></div>
+    <div style='height: 5px;'></div>
     
     <Time />
-    <div style='height: 2px;'></div>
+    <div style='height: 5px;'></div>
     
     <Social />
-    <div style='height: 2px;'></div>
+    <div style='height: 5px;'></div>
   </div>
 </template>
 
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "LXGW WenKai Mono TC", monospace;
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "LXGW WenKai Mono TC", monospace;
 }
 
   body {
