@@ -8,10 +8,18 @@ import Social from './comp/Social.vue'
   <div class='mainContainer'>
     <!-- 懒得写css了，直接加div吧哈哈哈 -->
     <div style='height: 2px;'></div>
+    
     <Avatar />
+    <div style='height: 2px;'></div>
+    
     <div class="name">EverNest</div>
+    <div style='height: 2px;'></div>
+    
     <Time />
+    <div style='height: 2px;'></div>
+    
     <Social />
+    <div style='height: 2px;'></div>
   </div>
 </template>
 
