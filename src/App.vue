@@ -24,7 +24,6 @@ import Social from './comp/Social.vue'
   body {
   background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 </style>
