@@ -1,7 +1,7 @@
 <script setup>
-import Avatar from '../comp/Avatar.vue'
-import Time from '../comp/Time.vue'
-import Social from '../comp/Social.vue'
+import Avatar from './comp/Avatar.vue'
+import Time from './comp/Time.vue'
+import Social from './comp/Social.vue'
 </script>
 
 <template>
