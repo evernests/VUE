@@ -5,12 +5,14 @@ import Social from './comp/Social.vue'
 </script>
 
 <template>
-  <!-- 懒得写css了，直接加div吧哈哈哈 -->
-  <div style='height: 2px;'></div>
-  <Avatar />
-  <div class="name">EverNest</div>
-  <Time />
-  <Social />
+  <div class='mainContainer'>
+    <!-- 懒得写css了，直接加div吧哈哈哈 -->
+    <div style='height: 2px;'></div>
+    <Avatar />
+    <div class="name">EverNest</div>
+    <Time />
+    <Social />
+  </div>
 </template>
 
 <style>
@@ -27,6 +29,14 @@ import Social from './comp/Social.vue'
   background-repeat: no-repeat;
   min-height: 100vh
 }
+  mainContainer {
+    height: auto;
+    min-height: 200px;
+    width: 100%
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.4)
+    backdrop-filter: blur(8px);
+  }
 </style>
 
 <style scoped>
