@@ -8,6 +8,7 @@
   <div class='container'>
     <a class='card' href='https://blog.evernests.qzz.io'>博客</a>
     <a class='card' href='mailto:VICTORIALAZY111@outlook.com'>Outlook</a>
+  </div>
 </template>
 
 <style scoped>
