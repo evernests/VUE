@@ -24,15 +24,18 @@ import Social from './comp/Social.vue'
 }
 
   body {
-  background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh
 }
   .mainContainer {
     height: auto;
     min-height: 200px;
-    width: 100%;
+    width: 90vw;
     border-radius: 20px;
     background-color: rgba(255,255,255,0.4);
     backdrop-filter: blur(8px);
