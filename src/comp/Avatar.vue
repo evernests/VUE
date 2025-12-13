@@ -15,7 +15,7 @@ const toggleEnlarge = () => {
 
 <style scoped>
 .avatar {
-  margin-top: 2px;
+  margin: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
