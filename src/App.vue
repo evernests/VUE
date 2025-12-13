@@ -5,6 +5,7 @@ import Social from './comp/Social.vue'
 </script>
 
 <template>
+  <!-- 懒得写css了，直接加div吧哈哈哈 -->
   <div style='height: 2px;'></div>
   <Avatar />
   <div class="name">EverNest</div>
@@ -23,6 +24,8 @@ import Social from './comp/Social.vue'
   body {
   background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 </style>
 
@@ -30,6 +33,7 @@ import Social from './comp/Social.vue'
 body {
   background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
   background-size: cover;
+
 }
 .name {
   font-size: 40px;
