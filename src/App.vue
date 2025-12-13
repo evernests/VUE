@@ -25,6 +25,7 @@ import Social from './comp/Social.vue'
   background-image: url('https://i.imgs.ovh/2025/12/13/CHj0Oq.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh
 }
 </style>
 
